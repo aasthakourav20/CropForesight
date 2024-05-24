@@ -14,7 +14,7 @@ import Loading from "./components/Loading";
 import Err from "./components/404page/404";
 import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
-import Contributor from "./components/Contributors/Contributor";
+
 import Home from "./components/Home/Home";
 import Weather from "./components/Weather";
 import FAQ from "./components/faq/faq";
@@ -272,7 +272,7 @@ function App() {
             <Route path="/Weather" element={<Weather mode={mode} setmode={setmode} />} />{" "}
             <Route path="/*" element={<Err mode={mode} setmode={setmode} />} />{" "}
             <Route path="/ExampleCrop" element={<ExampleCrop mode={mode} setmode={setmode} />} />{" "}
-            <Route path="/contributors" element={<Contributor mode={mode} setmode={setmode} />} />{" "}
+            
             {token === null && <Route path="/Login" element={<Login mode={mode} setmode={setmode} />} />}
             {token === null && <Route path="/Register" element={<Register mode={mode} setmode={setmode} />} />}
             {token === null && <Route path="/forgotpassword" element={<ForgotPassword mode={mode} setmode={setmode} />} />}

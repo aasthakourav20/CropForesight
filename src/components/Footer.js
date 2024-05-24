@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div className="row">
-          Copyright © 2023 - Made with Love by team CropForesight
+          Copyright © 2023 - Team CropForesight
         </div>
       </div>
     </footer>

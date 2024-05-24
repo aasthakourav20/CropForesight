@@ -51,9 +51,8 @@ const NAV = ({ mode, setmode }) => {
             <li style={{ backgroundColor: location.pathname === '/Weather' ? 'green' : 'inherit', width: '5rem', height: '3rem', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Link to="/Weather">Weather</Link>
             </li>
-            <li style={{ backgroundColor: location.pathname === '/contributors' ? 'green' : 'inherit', width: '8rem', height: '3rem', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <Link to="/contributors">Contributors</Link>
-            </li>
+            
+
             <li style={{ backgroundColor: location.pathname === '/ExampleCrop' ? 'green' : 'inherit', width: '5rem', height: '3rem', borderRadius: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Link to="/ExampleCrop">Example</Link>
             </li>
