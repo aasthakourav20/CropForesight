@@ -1,11 +1,11 @@
 <h1 align="center" id="top">CropForesight (Frontend)</h1>
-<p align="center">This Repository includes the frontend code of the <a href="crop-foresight-front-end.vercel.app" >CropForesight</a> website. The frontend of the project is written in HTML, CSS, Javascript, and ReactJS. Before moving ahead, a short intro about the project.</p>
+<p align="center">This Repository includes the frontend code of the CropForesight The frontend of the project is written in HTML, CSS, Javascript, and ReactJS. Before moving ahead, a short intro about the project.</p>
 
  <h1 align="center">CropForesight🌾</h1>
 CropForesight is an advanced website designed to assist farmers and agriculture enthusiasts in making smart choices about which crops to grow on their land. It achieves this by using special computer programs that can learn from data and environmental information. These programs take into account factors like soil nutrients, rainfall, pH levels, and weather conditions. With all this data, CropForesight can accurately predict the best crop to cultivate, helping farmers maximize their productivity and yield. It's like having a knowledgeable farming expert to guide you towards success!
 <br>
 
-🌐 [Live Demo](crop-foresight-front-end.vercel.app)
+
 
  <h1 align="center">Table of Contents</h1>
 
