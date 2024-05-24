@@ -34,7 +34,7 @@ CropForesight is an advanced website designed to assist farmers and agriculture 
 
 ## Local Development
 
-If you want to contribute to CropForesight or run it locally for development purposes, follow these steps:
+If you want to run it locally for development purposes, follow these steps:
 
 1. Clone the frontend repository:
 
@@ -79,7 +79,6 @@ If you want to contribute to CropForesight or run it locally for development pur
    ```
 
 ````
-
 
 8. Run the backend:
 
