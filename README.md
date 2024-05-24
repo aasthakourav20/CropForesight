@@ -37,9 +37,9 @@ To experience the power of CropForesight, follow these simple steps:
 
 ✅ Explore the recommended crop and gain insights into its suitability for your land.
 
-## Local Development
+## Running the Project Locally
 
-If you want to contribute to CropForesight or run it locally for development purposes, follow these steps:
+If you want to  run it locally for development purposes, follow these steps:
 
 1. Clone the frontend repository:
 
@@ -82,10 +82,6 @@ If you want to contribute to CropForesight or run it locally for development pur
    ```sh
    pip install -r requirements.txt
    ```
-
-````
-
-
 8. Run the backend:
 
 ```sh
