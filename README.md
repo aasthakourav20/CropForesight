@@ -1,93 +1,52 @@
-<h1 align="center" id="top">CropForesight (Frontend)</h1>
-<p align="center">This Repository includes the frontend code of the CropForesight The frontend of the project is written in HTML, CSS, Javascript, and ReactJS. Before moving ahead, a short intro about the project.</p>
+﻿# CropForesight BackEnd
 
- <h1 align="center">CropForesight🌾</h1>
-CropForesight is an advanced website designed to assist farmers and agriculture enthusiasts in making smart choices about which crops to grow on their land. It achieves this by using special computer programs that can learn from data and environmental information. These programs take into account factors like soil nutrients, rainfall, pH levels, and weather conditions. With all this data, CropForesight can accurately predict the best crop to cultivate, helping farmers maximize their productivity and yield. It's like having a knowledgeable farming expert to guide you towards success!
+
+The repository for the backend of the [Crop Foresight project] made using Pydantic and FastAPI.
+
+By using various parameters like Nitrogen, Phosphorous, Potassium, rainfall, humidity, temperature and pH it predicts the most optimal crop for the land from among 22 crops ranging from rice or apples to cotton or lentils using a Gaussian Naive Bayes model
+
 <br>
 
+## Table of Contents
+1. [Technologies Used](#technologies-used)
+2. [Running the Project Locally](#runnning-the-project-locally)
+
+## Technologies Used:
 
 
- <h1 align="center">Table of Contents</h1>
-
-- [Features](#features)
-- [Technologies](#technologies)
-- [Usage](#usage)
-- [Local Development](#local-development)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+ ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 
-<h1 align="center">Features</h1>
+## Runnning the Project Locally:
 
-- Intelligent crop recommendation based on soil composition, rainfall, pH, potassium, humidity, and temperature.
-- User-friendly interface to input land and environmental parameters.
-- Efficient machine learning model leveraging Gaussian Naïve Bayes algorithm.
-- Responsive frontend developed using ReactJS for seamless user experience.
-- Scalable backend powered by FastAPI for quick data processing.
-- The platform can analyze historical agricultural data to identify trends and patterns, aiding in better decision-making for future crops.
-- CropForesight can utilize its data analysis capabilities to predict and warn users about potential pest and disease outbreaks, allowing for timely preventive measures.
-- By integrating real-time weather data, CropForesight can provide up-to-date recommendations, adapting to sudden changes in weather patterns for better accuracy.
 
- <h1 align="center">Technologies</h1>
+#### Clone the backend repository:
 
-<h3 align="center">HTML, CSS, Javascript, ReactJS</h3>
- 
- <h1 align="center">Usage</h1>
+```
+git clone https://github.com/abhijeet141/CropForesight_BackEnd.git
+```
 
-## Local Development
+#### Change to the CropForesight_BackEnd directory:
 
-If you want to run it locally for development purposes, follow these steps:
+```
+cd CropForesight_BackEnd
+```
 
-1. Clone the frontend repository:
+#### Install the required dependencies:
 
-   ```sh
-   git clone 
-   ```
+```
+pip install -r requirements.txt
+```
 
-2. Change to the project directory:
+#### Run the backend:
 
-   ```sh
-   cd CropForesight-FrontEnd
-   ```
+```
+uvicorn main:app --reload
+```
 
-3. Install the required dependencies:
-
-   ```sh
-   npm install
-   ```
-
-4. Run the frontend:
-
-   ```sh
-   npm start
-   ```
-
-5. Clone the backend repository:
-
-   ```sh
-   git clone 
-   ```
-
-6. Change to the CropForesight_BackEnd directory:
-
-   ```sh
-   cd CropForesight_BackEnd
-   ```
-
-7. Install the required dependencies:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-````
-
-8. Run the backend:
-
-```sh
- uvicorn main:app --reload
-````
-
-9. Open the website in your browser at [http://localhost:3000](http://localhost:3000) to access the local instance of CropForesi
-<br><br>
-<a href="#top">Back to top</a>
-
-</div>
+##### Open the website in your browser at http://localhost:3000.
+You can access the deployed frontend at: 
+### https://crop-foresight-front-end.vercel.app/.
