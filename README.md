@@ -1,7 +1,16 @@
-﻿# CropForesight BackEnd
+﻿# CropForesight 
+CropForesight is an advanced website designed to assist farmers and agriculture enthusiasts in making smart choices about which crops to grow on their land. It achieves this by using special computer programs that can learn from data and environmental information. These programs take into account factors like soil nutrients, rainfall, pH levels, and weather conditions. With all this data, CropForesight can accurately predict the best crop to cultivate, helping farmers maximize their productivity and yield. It's like having a knowledgeable farming expert to guide you towards success!
 
+## Features
 
-The repository for the backend of the [Crop Foresight project] made using Pydantic and FastAPI.
+- Intelligent crop recommendation based on soil composition, rainfall, pH, potassium, humidity, and temperature.
+- User-friendly interface to input land and environmental parameters.
+- Efficient machine learning model leveraging Gaussian Naïve Bayes algorithm.
+- Responsive frontend developed using ReactJS for seamless user experience.
+- Scalable backend powered by FastAPI for quick data processing.
+- The platform can analyze historical agricultural data to identify trends and patterns, aiding in better decision-making for future crops.
+- CropForesight can utilize its data analysis capabilities to predict and warn users about potential pest and disease outbreaks, allowing for timely preventive measures.
+- By integrating real-time weather data, CropForesight can provide up-to-date recommendations, adapting to sudden changes in weather patterns for better accuracy.
 
 By using various parameters like Nitrogen, Phosphorous, Potassium, rainfall, humidity, temperature and pH it predicts the most optimal crop for the land from among 22 crops ranging from rice or apples to cotton or lentils using a Gaussian Naive Bayes model
 
@@ -13,40 +22,77 @@ By using various parameters like Nitrogen, Phosphorous, Potassium, rainfall, hum
 
 ## Technologies Used:
 
+<h3 align="center">HTML, CSS, Javascript, ReactJS ,FastAPI , scikit-learn ,Pandas ,NumPy </h3>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
- ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+ <h1 align="center">Usage</h1>
+
+To experience the power of CropForesight, follow these simple steps:
+
+✅ Visit the CropForesight website
 
 
-## Runnning the Project Locally:
+✅ Enter the required details such as soil nitrogen value, phosphorus value, rainfall, pH, potassium, humidity, and temperature.
+
+✅ Click on the "Recommend Crop" button to generate the optimal crop recommendation.
+
+✅ Explore the recommended crop and gain insights into its suitability for your land.
+
+## Local Development
+
+If you want to contribute to CropForesight or run it locally for development purposes, follow these steps:
+
+1. Clone the frontend repository:
+
+   ```sh
+   git clone https://github.com/abhijeet141/CropForesight-FrontEnd.git
+   ```
+
+2. Change to the project directory:
+
+   ```sh
+   cd CropForesight-FrontEnd
+   ```
+
+3. Install the required dependencies:
+
+   ```sh
+   npm install
+   ```
+
+4. Run the frontend:
+
+   ```sh
+   npm start
+   ```
+
+5. Clone the backend repository:
+
+   ```sh
+   git clone https://github.com/abhijeet141/CropForesight_BackEnd.git
+   ```
+
+6. Change to the CropForesight_BackEnd directory:
+
+   ```sh
+   cd CropForesight_BackEnd
+   ```
+
+7. Install the required dependencies:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+````
 
 
-#### Clone the backend repository:
+8. Run the backend:
 
-```
-git clone https://github.com/abhijeet141/CropForesight_BackEnd.git
-```
+```sh
+ uvicorn main:app --reload
+````
 
-#### Change to the CropForesight_BackEnd directory:
 
-```
-cd CropForesight_BackEnd
-```
 
-#### Install the required dependencies:
 
-```
-pip install -r requirements.txt
-```
 
-#### Run the backend:
-
-```
-uvicorn main:app --reload
-```
-
-##### Open the website in your browser at http://localhost:3000.
-You can access the deployed frontend at: 
-### https://crop-foresight-front-end.vercel.app/.
