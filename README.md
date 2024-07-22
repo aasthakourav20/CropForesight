@@ -1,4 +1,5 @@
-﻿# CropForesight 
+ # Live Link : https://farmer-help.netlify.app/
+ # CropForesight 
 CropForesight is an advanced website designed to assist farmers and agriculture enthusiasts in making smart choices about which crops to grow on their land. It achieves this by using special computer programs that can learn from data and environmental information. These programs take into account factors like soil nutrients, rainfall, pH levels, and weather conditions. With all this data, CropForesight can accurately predict the best crop to cultivate, helping farmers maximize their productivity and yield. It's like having a knowledgeable farming expert to guide you towards success!
 
 ## Features
@@ -15,15 +16,6 @@ CropForesight is an advanced website designed to assist farmers and agriculture 
 By using various parameters like Nitrogen, Phosphorous, Potassium, rainfall, humidity, temperature and pH it predicts the most optimal crop for the land from among 22 crops ranging from rice or apples to cotton or lentils using a Gaussian Naive Bayes model
 
 <br>
-![Screenshot (340)](https://github.com/user-attachments/assets/91d3c6a1-449a-40de-a334-3e2c4f267936)
-
-
-
-![Screenshot (342)](https://github.com/user-attachments/assets/7d28012e-e917-49d3-8d13-53d52772d41b)
-
-
-
-![Screenshot (339)](https://github.com/user-attachments/assets/c57ecfcb-bc80-4e44-bba8-2882fb9874c6)
 
 
 
