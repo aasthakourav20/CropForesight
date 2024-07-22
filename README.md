@@ -16,6 +16,8 @@ By using various parameters like Nitrogen, Phosphorous, Potassium, rainfall, hum
 
 <br>
 
+![Screenshot (339)](https://github.com/user-attachments/assets/7ff1e933-bea0-4bdf-a0e1-82a5f7d34ed2)
+
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Running the Project Locally](#runnning-the-project-locally)
