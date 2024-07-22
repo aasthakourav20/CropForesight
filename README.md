@@ -15,8 +15,17 @@ CropForesight is an advanced website designed to assist farmers and agriculture 
 By using various parameters like Nitrogen, Phosphorous, Potassium, rainfall, humidity, temperature and pH it predicts the most optimal crop for the land from among 22 crops ranging from rice or apples to cotton or lentils using a Gaussian Naive Bayes model
 
 <br>
+![Screenshot (340)](https://github.com/user-attachments/assets/91d3c6a1-449a-40de-a334-3e2c4f267936)
 
-![Screenshot (339)](https://github.com/user-attachments/assets/7ff1e933-bea0-4bdf-a0e1-82a5f7d34ed2)
+
+
+![Screenshot (342)](https://github.com/user-attachments/assets/7d28012e-e917-49d3-8d13-53d52772d41b)
+
+
+
+![Screenshot (339)](https://github.com/user-attachments/assets/c57ecfcb-bc80-4e44-bba8-2882fb9874c6)
+
+
 
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
